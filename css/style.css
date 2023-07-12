@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+section{
+    min-height: 100vh;
+}
+.logo{
+    width: 100%;
+    background: #192D3B;
+    height: 200px;
+    text-align: center;
+}
+.logo img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border: 3px solid #192D3B;
+}
+.container{
+    width: 100%;
+    background: #192D3B;
+    color: #fff;
+    margin: 2rem 0;
+    text-align: center;
+}
+.small{
+    padding: 1rem 0;
+}
+.big{
+    padding: 3rem 0;
+}
+.tiny{
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+}
